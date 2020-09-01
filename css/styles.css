@@ -1,0 +1,109 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+#container {
+    margin: 20px 50px;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+nav {
+    flex: 1;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #797a7e;
+}
+
+nav a:hover {
+    color: #d8d3cd;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+h3 {
+    font-size: 4em;
+    font-weight: 300;
+    margin: 0;
+}
+p {
+    color: #797a7e;
+}
+
+
+.button {
+    padding: 14px 24px;
+    border-radius: 20px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.button-primary {
+    background-color: #e94560;
+}
+
+#main-section {
+    display: flex;
+    margin-top: 40px;
+}
+#main-section-title {
+    flex: 0.5;
+    margin: 80px 0px;
+}
+
+#main-section-img {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+#main-section input[type="email"]{
+    padding: 12px 24px;
+    border-radius: 17px;
+    border: 1px solid #ebecf1;
+    outline: none;
+    flex: 1;
+    margin-right: 10px;
+}
+
+#main-section form {
+    margin: 20px 0px;
+    display: flex;
+}
+
+#main-section-button-shop img {
+    width: 200px;
+    align-items: center;
+}
+
+.main__secundary--title  {
+    text-align: center;
+    margin: 60px 20% 20px 20%;
+}
+
+.main__features {
+    display: flex;
+    align-items: center;
+}
+
+.main__features--item {
+    margin-left: 40px;
+}
