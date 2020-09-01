@@ -45,9 +45,21 @@ h3 {
 }
 p {
     color: #797a7e;
+    font-weight: 200;
+    font-size: 1.2em;
 }
 
+h4 {
+    font-weight: 200;
+    font-size: 1.8em;
 
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin: 20px 0px;
+}
 .button {
     padding: 14px 24px;
     border-radius: 20px;
@@ -88,10 +100,14 @@ p {
     margin: 20px 0px;
     display: flex;
 }
+#main-section-button-shop {
+    display: flex;
+    justify-content: center;
+}
 
 #main-section-button-shop img {
     width: 200px;
-    align-items: center;
+    padding: 10px;
 }
 
 .main__secundary--title  {
@@ -107,3 +123,18 @@ p {
 .main__features--item {
     margin-left: 40px;
 }
+.money__section {
+    display: flex;
+    align-items: center;
+}
+
+.money__section--text {
+    text-align: center;
+}
+
+.money__section-img,
+.money__section--text {
+    display: flex;
+    flex: 1;
+}
+
